@@ -46,6 +46,8 @@ import OverNightBooking from "./screens/OverNightBooking";
 import GuestCountNight from "./screens/OverNight booking/GuestCountNight";
 import GuestDetailsDay from "./screens/DayPassBooking/GuestDetailDay";
 import GuestDetailsNight from "./screens/OverNight booking/GuestDetailsNight";
+import BookingSummaryDay from "./screens/DayPassBooking/BookingSummaryDay";
+import BookingOptions from "./screens/DayPassBooking/BookingOptions";
 
 
 
@@ -115,6 +117,10 @@ export default function App() {
 
         <Route exact path="/day-pass-booking" element={<DayPassBooking />} >
           <Route path="" element={<GuestDetailsDay/>} />
+          <Route path="booking-summary" element={<BookingSummaryDay />} />
+          <Route path="booking-options" element={<BookingOptions />} />
+
+
         </Route>
 
         <Route exact path="/business-retreat" element={<BusinessRetreat />} />
