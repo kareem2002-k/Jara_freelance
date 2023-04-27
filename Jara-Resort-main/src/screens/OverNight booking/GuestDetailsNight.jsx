@@ -444,17 +444,129 @@ const GuestCountNight = () => {
               </div>
             </div>
 
-
             <div style={{ display: "flex", justifyContent: "center", flex: 1 }}>
-  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "#F4F1F1", width: "100%", height: "60%", marginTop: "10px" }}>
-    <div>
-      <h2>Reservation</h2>
-    </div>
-    <div>
-    </div>
-  </div>
-</div>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  backgroundColor: "#F4F1F1",
+                  width: "100%",
+                  marginTop: "10px",
+                  padding: "1rem",
+                  height: "80vh",
+                  borderRadius: "10px",
+                }}
+              >
+                <div
+                  style={{
+                    borderBottom: "1px solid #ccc",
+                    width: "100%",
+                    marginBottom: "1.5rem",
+                    paddingBottom: "0.5rem",
+                  }}
+                >
+                  <h2
+                    style={{
+                      textAlign: "center",
+                      fontSize: "1.5rem",
+                      margin: "1.6rem",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Your Reservation
+                  </h2>
+                </div>
+                <div style={{ width: "100%"
+                , margin: "1.5rem" }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      margin: "0.8rem ",
+                    }}
+                  >
+                    <span style={{ fontSize: "1.2rem" }}>Guests</span>
+                    <span style={{ fontSize: "1.2rem" }}>1 Adult</span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      margin: "0.8rem ",
+                      paddingTop: "0.5rem",
+                    }}
+                  >
+                    <span style={{ fontSize: "1.2rem" }}>Duration</span>
+                    <span style={{ fontSize: "1.2rem" }}>1 Night</span>
+                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      margin: "0.8rem ",
+                      paddingTop: "0.5rem",
+                    }}
+                  >
+                    <span style={{ fontSize: "1.2rem" }}>Room</span>
+                    <span style={{ fontSize: "1.2rem" }}>Sunset 11</span>
+                  </div>
+                </div>
+                <hr style={{ width: "100%", margin: "1.5rem 0" }} />
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                    margin: "0.8rem",
+                   
+                  }}
+                >
+                  <span style={{  fontSize: "1.2rem" }}>
+                    SubTotal:
+                  </span>
+                  <span style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
+                    N60,000
+                  </span>
+                </div>
+                <hr style={{ width: "100%", margin: "1.5rem 0" }} />
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                    marginTop: "0.8rem",
+                  }}
+                >
+                  <span style={{  fontSize: "1.2rem" }}>
+                    Consumotion Tax and VAT
+                  </span>
+                  <span style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
+                    N7,000                  </span>
+                </div>
 
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                    marginTop: "0.8rem",
+                  }}
+                >
+                  <span style={{  fontSize: "1.2rem" }}>
+                    Total
+                  </span>
+                  <span style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
+                    N67,000                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </form>
       </main>
