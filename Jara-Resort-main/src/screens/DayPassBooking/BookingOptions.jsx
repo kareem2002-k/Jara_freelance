@@ -274,18 +274,108 @@ const BookingOptions = () => {
 
 
 
-              <div style={{ marginTop: "2rem", width: "80%" , display :'flex',  marginLeft: "2rem" }}>
-  <div style={{ display: "flex", flex:'row'}}>
-    <div style={{  position: "relative", width: "100%", marginRight :'1.5rem'}}>
-      <img src='https://hbomax-images.warnermediacdn.com/images/GVgAkCwqvcoOzkt8IAAAC/tile?size=1280x720&format=jpeg&partner=hbocom&v=018b01a4164bce683767593ac05edfb3&host=art-gallery.api.hbo.com&w=1200' style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="activity" />
-      <h5 style={{ display: "flex", justifyContent: "center", alignItems: "center", position: "absolute", bottom: 0, marginBottom: 0, width: "100%", height: "25%", backgroundColor: "#000", fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF" }}>Activity 1</h5>
+            <div style={{ marginTop: "2rem", width: "80%", display: "flex", marginLeft: "2rem" }}>
+            <div style={{ display: "flex", flex: "row" }}>
+            <div style={{ display: "flex", alignItems: "center" }}>
+  <div style={{ position: "relative", width: "100%", marginRight: "1.5rem", cursor: "pointer" }}>
+    <img src='https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="activity" />
+    <div style={{ position: "absolute", top: "0", right: "0", backgroundColor: "black", padding: "0.5rem" }}>
+      <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0 }}>
+        $10
+      </h5>
     </div>
-    <div style={{  position: "relative", width: "100%", marginRight :'1rem'}}>
-      <img src='https://hbomax-images.warnermediacdn.com/images/GVgAkCwqvcoOzkt8IAAAC/tile?size=1280x720&format=jpeg&partner=hbocom&v=018b01a4164bce683767593ac05edfb3&host=art-gallery.api.hbo.com&w=1200' style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="activity" />
-      <h5 style={{ display: "flex", justifyContent: "center", alignItems: "center", position: "absolute", bottom: 0, marginBottom: 0, width: "100%", height: "25%", backgroundColor: "#000", fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF" }}>Activity 2</h5>
+    <div style={{ display: "flex", alignItems: "center", position: "absolute", left: 0, bottom: 0, marginBottom: 0, width: "100%", height: "25%", backgroundColor: "#000", opacity: 0.8 }}>
+      <div style={{ marginLeft: "0.5rem", marginRight: "1.5rem"}}>
+        <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0, padding: "0.5rem" }}>
+          Activity 1
+        </h5>
+
+      </div>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "2rem", height: "2rem", borderRadius: "50%", border: "2px solid #000", marginLeft: "auto", marginRight: "0.5rem" }}>
+        <input type="checkbox" style={{borderRadius:'100%' }} />
+        
+      </div>
     </div>
   </div>
 </div>
+
+<div style={{ display: "flex", alignItems: "center" }}>
+  <div style={{ position: "relative", width: "100%", marginRight: "1.5rem", cursor: "pointer" }}>
+    <img src='https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="activity" />
+    <div style={{ position: "absolute", top: "0", right: "0", backgroundColor: "black", padding: "0.5rem" }}>
+      <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0 }}>
+        $10
+      </h5>
+    </div>
+    <div style={{ display: "flex", alignItems: "center", position: "absolute", left: 0, bottom: 0, marginBottom: 0, width: "100%", height: "25%", backgroundColor: "#000", opacity: 0.8 }}>
+      <div style={{ marginLeft: "0.5rem", marginRight: "1.5rem"}}>
+        <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0, padding: "0.5rem" }}>
+          Activity 1
+        </h5>
+
+      </div>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "2rem", height: "2rem", borderRadius: "50%", border: "2px solid #000", marginLeft: "auto", marginRight: "0.5rem" }}>
+        <input type="checkbox" style={{borderRadius:'100%' }} />
+        
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+</div>
+
+<div style={{ marginTop: "2rem", width: "80%", display: "flex", marginLeft: "2rem" }}>
+            <div style={{ display: "flex", flex: "row" }}>
+            <div style={{ display: "flex", alignItems: "center" }}>
+  <div style={{ position: "relative", width: "100%", marginRight: "1.5rem", cursor: "pointer" }}>
+    <img src='https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="activity" />
+    <div style={{ position: "absolute", top: "0", right: "0", backgroundColor: "black", padding: "0.5rem" }}>
+      <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0 }}>
+        $10
+      </h5>
+    </div>
+    <div style={{ display: "flex", alignItems: "center", position: "absolute", left: 0, bottom: 0, marginBottom: 0, width: "100%", height: "25%", backgroundColor: "#000", opacity: 0.8 }}>
+      <div style={{ marginLeft: "0.5rem", marginRight: "1.5rem"}}>
+        <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0, padding: "0.5rem" }}>
+          Activity 1
+        </h5>
+
+      </div>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "2rem", height: "2rem", borderRadius: "50%", border: "2px solid #000", marginLeft: "auto", marginRight: "0.5rem" }}>
+        <input type="checkbox" style={{borderRadius:'100%' }} />
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style={{ display: "flex", alignItems: "center" }}>
+  <div style={{ position: "relative", width: "100%", marginRight: "1.5rem", cursor: "pointer" }}>
+    <img src='https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' style={{ width: "100%", height: "100%", objectFit: "cover" }} alt="activity" />
+    <div style={{ position: "absolute", top: "0", right: "0", backgroundColor: "black", padding: "0.5rem" }}>
+      <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0 }}>
+        $10
+      </h5>
+    </div>
+    <div style={{ display: "flex", alignItems: "center", position: "absolute", left: 0, bottom: 0, marginBottom: 0, width: "100%", height: "25%", backgroundColor: "#000", opacity: 0.8 }}>
+      <div style={{ marginLeft: "0.5rem", marginRight: "1.5rem"}}>
+        <h5 style={{ fontStyle: "normal", fontWeight: 400, fontSize: 15.8468, color: "#FFFFFF", margin: 0, padding: "0.5rem" }}>
+          Activity 1
+        </h5>
+
+      </div>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "2rem", height: "2rem", borderRadius: "50%", border: "2px solid #000", marginLeft: "auto", marginRight: "0.5rem" }}>
+        <input type="checkbox" style={{borderRadius:'100%' }} />
+        
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+</div>
+
 
             </div>
 
