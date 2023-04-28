@@ -376,6 +376,51 @@ const BookingOptions = () => {
 
 </div>
 
+<div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                marginTop: "2rem",
+              }}
+            >
+              <Link to='/'>
+              <button
+                className="white_button"
+                style={{
+                  marginRight: "2rem",
+                  marginbottom: "1em",
+                  border: "1",
+
+                  width: "300px",
+                  borderRadius: "5px",
+                  background: "white",
+                  color: "black",
+                }}
+              >
+                Restart Booking
+              </button>
+              </Link>
+
+              <Link to='/day-pass-booking/booking-summary'>
+
+
+              <button
+                className="black_button1"
+                style={{
+                  marginRight: "2rem",
+                  marginbottom: "1em",
+                  border: "none",
+                  width: "300px",
+                  borderRadius: "5px",
+                  background: "black",
+                  color: "white",
+                }}
+              >
+                Continue
+              </button>
+              </Link>
+            </div>
+
 
             </div>
 

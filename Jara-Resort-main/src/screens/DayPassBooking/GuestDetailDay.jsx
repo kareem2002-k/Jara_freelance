@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const GuestDetailsDay = () => {
   return (
@@ -316,6 +317,7 @@ const GuestDetailsDay = () => {
                 marginTop: "2rem",
               }}
             >
+              <Link to='/'>
               <button
                 className="white_button"
                 style={{
@@ -331,6 +333,10 @@ const GuestDetailsDay = () => {
               >
                 Restart Booking
               </button>
+              </Link>
+
+              <Link to='booking-options'>
+
 
               <button
                 className="black_button1"
@@ -346,6 +352,7 @@ const GuestDetailsDay = () => {
               >
                 Continue
               </button>
+              </Link>
             </div>
           </div>
         </form>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const GuestCountNight = () => {
   return (
     <>
@@ -183,6 +183,8 @@ const GuestCountNight = () => {
 
             <div style={{ display: "flex", flexDirection: "row" , marginTop:'2rem'}}>
 
+            <Link to="/">
+
             <button className="white_button" style={{marginRight: "2rem",                      
            marginbottom: '1em' ,
             border:'1',
@@ -193,6 +195,9 @@ const GuestCountNight = () => {
             , color:'black'
            
            }} >Restart Booking</button>
+           </Link>
+
+           <Link to="guest-details">
          
           
               <button className="black_button1" style={{marginRight: "2rem",                      
@@ -202,7 +207,7 @@ const GuestCountNight = () => {
            borderRadius:'5px'
            , background : 'black'
            , color:'white'}} >Continue</button>
-             
+             </Link>
             </div>
           </div>
         </form>

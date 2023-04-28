@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const GuestCountNight = () => {
   return (
@@ -411,6 +412,7 @@ const GuestCountNight = () => {
                   marginTop: "2rem",
                 }}
               >
+                <Link to="/day-pass-booking">
                 <button
                   className="white_button"
                   style={{
@@ -426,6 +428,9 @@ const GuestCountNight = () => {
                 >
                   Restart Booking
                 </button>
+                </Link>
+
+                <Link to='/overnight-pass-booking/calender'>
 
                 <button
                   className="black_button1"
@@ -441,6 +446,7 @@ const GuestCountNight = () => {
                 >
                   Continue
                 </button>
+                </Link>
               </div>
             </div>
 
