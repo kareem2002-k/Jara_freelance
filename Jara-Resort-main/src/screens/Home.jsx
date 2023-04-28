@@ -115,10 +115,10 @@ export default function Home() {
               flexWrap: "wrap",
             }}
           >
-            <Link to="/day-pass">
+            <Link to="/day-pass-booking">
               <button className="black_button1">Day Pass Booking</button>
             </Link>
-            <Link to="/overnight-experiences-and-booking">
+            <Link to="/overnight-pass-booking">
               <button className="white_button">Overnight Booking</button>
             </Link>
           </div>
