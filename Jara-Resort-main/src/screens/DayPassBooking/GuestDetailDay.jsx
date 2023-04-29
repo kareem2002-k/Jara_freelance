@@ -85,7 +85,7 @@ const GuestDetailsDay = () => {
                 }}
               >
                 <input
-                  type="number"
+                  type="text"
                   id="distance"
                   min="0"
                   max="17"
@@ -113,7 +113,7 @@ const GuestDetailsDay = () => {
                 }}
               >
                 <input
-                  type="number"
+                  type="text"
                   id="distanceMax"
                   min="0"
                   max="17"
@@ -147,7 +147,7 @@ const GuestDetailsDay = () => {
                 }}
               >
                 <input
-                  type="number"
+                  type="email"
                   id="distance"
                   min="0"
                   max="17"
@@ -175,7 +175,7 @@ const GuestDetailsDay = () => {
                 }}
               >
                 <input
-                  type="number"
+                  type="text"
                   id="distanceMax"
                   min="0"
                   max="17"
