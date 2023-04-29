@@ -1,9 +1,12 @@
 {
+  "homepage": "https://kareem2002-k.github.io/Jara_freelance",
   "name": "jara",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "preydeploy": "yarn run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -22,6 +25,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "gh-pages": "^5.0.0",
     "prettier": "2.8.4",
     "vite": "^2.9.9"
   },
